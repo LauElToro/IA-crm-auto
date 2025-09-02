@@ -1,0 +1,252 @@
+[
+  {
+    "test_name": "Lead 1 - TechVision",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Carlos",
+      "apellido": "Martinez",
+      "email": "carlos@techvision.com",
+      "telefono": "123456789",
+      "empresa": "TechVision",
+      "cargo": "CTO",
+      "industria": "SaaS",
+      "bio": "Explora automatizaci\u00f3n y herramientas AI",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 35,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **90/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nEl perfil del CTO de TechVision presenta m\u00faltiples se\u00f1ales positivas que lo convierten en un prospecto altamente calificado:\n\n* **Cargo:** CTO. Los CTOs tienen autoridad para tomar decisiones de compra de servicios tecnol\u00f3gicos, incluyendo marketing.  Son responsables del rendimiento y la eficiencia, por lo que est\u00e1n interesados en soluciones que mejoren ambos aspectos.\n\n* **Empresa:** TechVision. El nombre sugiere una empresa con visi\u00f3n tecnol\u00f3gica y abierta a la innovaci\u00f3n.\n\n* **Industria:** SaaS. La industria SaaS es altamente competitiva y digitalizada, lo que implica una alta probabilidad de adopci\u00f3n de estrategias de marketing de performance y  IA para optimizar la adquisici\u00f3n y retenci\u00f3n de clientes.\n\n* **Tama\u00f1o:** 51-200 empleados. Este tama\u00f1o de empresa suele tener presupuesto dedicado a marketing y  necesita escalar sus esfuerzos de forma eficiente, lo que encaja perfectamente con la oferta de una agencia de marketing de performance + IA.\n\n* **Bio:** \"Explora automatizaci\u00f3n y herramientas AI\". Esta es la se\u00f1al m\u00e1s fuerte.  Demuestra un inter\u00e9s directo en las tecnolog\u00edas que la agencia ofrece.  Indica una predisposici\u00f3n a considerar soluciones de marketing basadas en IA para mejorar la eficiencia y la eficacia de sus campa\u00f1as.\n\n\n**Razones por las que no es un 100/100:**\n\nAunque el perfil es excelente, siempre hay un margen de incertidumbre.  No sabemos si:\n\n* **Ya tienen una agencia:**  Podr\u00edan estar satisfechos con su soluci\u00f3n actual.\n* **Su presupuesto:** Aunque probable, no sabemos si tienen asignado presupuesto para contratar una nueva agencia.\n* **Su necesidad urgente:**  Podr\u00edan estar explorando la IA de forma general, sin una necesidad inmediata de implementar soluciones en marketing.\n\nSin embargo, estas incertidumbres son menores frente a las se\u00f1ales altamente positivas que presenta el perfil, por lo que el inter\u00e9s se mantiene en un 90/100.  Este lead merece un contacto inmediato y una calificaci\u00f3n prioritaria para una estrategia de acercamiento personalizada."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 2 - EduImpact",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Ana",
+      "apellido": "Silva",
+      "email": "ana@eduimpact.org",
+      "telefono": "111222333",
+      "empresa": "EduImpact",
+      "cargo": "Directora",
+      "industria": "Educaci\u00f3n",
+      "bio": "Optimiza funnels educativos online",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 25,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **85/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nHay varias razones que sustentan este alto nivel de inter\u00e9s:\n\n* **Cargo:**  \"Directora\" indica un rol de toma de decisiones con autoridad para aprobar presupuestos y contratar servicios de marketing.  Esto es crucial para un lead B2B.\n\n* **Industria:** La educaci\u00f3n es una industria que se est\u00e1 digitalizando r\u00e1pidamente y que necesita optimizar sus funnels de conversi\u00f3n.  Esto significa una alta probabilidad de que est\u00e9n buscando soluciones de marketing digital avanzadas.\n\n* **Tama\u00f1o de la empresa:** 51-200 empleados sugiere una empresa que tiene recursos suficientes para invertir en una agencia de marketing, pero no tan grande como para tener un equipo de marketing interno altamente sofisticado y con capacidades de IA.\n\n* **Bio:**  \"Optimiza funnels educativos online\" es una se\u00f1al extremadamente fuerte.  Esto demuestra una necesidad directa y un inter\u00e9s expl\u00edcito en mejorar el rendimiento de sus campa\u00f1as de marketing. Implica que ya est\u00e1n trabajando en marketing digital y buscando mejoras significativas, lo que encaja perfectamente con la oferta de una agencia de performance.  El uso de la palabra \"optimiza\" sugiere una b\u00fasqueda activa de estrategias m\u00e1s eficientes, donde la IA puede jugar un papel clave.\n\n**Puntos que podr\u00edan bajar el inter\u00e9s (15 puntos de resta):**\n\n* **Falta de informaci\u00f3n:**  No sabemos el presupuesto de marketing de EduImpact, ni sus objetivos espec\u00edficos.  Es posible que ya est\u00e9n trabajando con una agencia o que su presupuesto sea muy limitado.\n* **Competencia:**  Otras agencias pueden estar contactando a esta Directora.\n* **Enfoque espec\u00edfico de la IA:** La agencia necesita asegurarse de que su propuesta de valor de IA se alinea con las necesidades espec\u00edficas de la optimizaci\u00f3n de funnels educativos online.  Si la IA de la agencia se enfoca en otro tipo de tareas (por ejemplo, an\u00e1lisis de sentimiento en redes sociales y no en predicci\u00f3n de conversi\u00f3n en funnels),  el inter\u00e9s podr\u00eda disminuir.\n\n\nEn resumen, el perfil del lead presenta una gran promesa, pero es fundamental realizar una investigaci\u00f3n m\u00e1s profunda para confirmar el presupuesto, necesidades espec\u00edficas y determinar si la soluci\u00f3n de IA de la agencia se ajusta perfectamente a sus necesidades.  Una llamada de descubrimiento ser\u00eda el siguiente paso crucial."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 3 - LegalFlow",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Luis",
+      "apellido": "Rodriguez",
+      "email": "luis@legalflow.com",
+      "telefono": "444555666",
+      "empresa": "LegalFlow",
+      "cargo": "CEO",
+      "industria": "LegalTech",
+      "bio": "Busca escalar marketing digital",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 30,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **90/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo (CEO):** El CEO tiene la autoridad para tomar decisiones de inversi\u00f3n en marketing y es quien usualmente define la estrategia general.  Esto facilita el proceso de venta y disminuye la probabilidad de largas cadenas de aprobaci\u00f3n.\n\n* **Empresa (LegalFlow):**  El nombre sugiere una empresa innovadora en una industria (LegalTech) que se presta a la adopci\u00f3n de tecnolog\u00edas como la IA para mejorar su eficiencia y alcance.  Las empresas de LegalTech suelen ser \u00e1giles y dispuestas a probar nuevas soluciones.\n\n* **Industria (LegalTech):**  La industria LegalTech est\u00e1 en constante evoluci\u00f3n y necesita adaptarse a las nuevas tecnolog\u00edas. El marketing digital y, especialmente, la incorporaci\u00f3n de IA en las estrategias, es crucial para su crecimiento.\n\n* **Tama\u00f1o (51-200):**  Este tama\u00f1o de empresa implica que LegalFlow probablemente est\u00e1 en una fase de crecimiento y busca escalar sus operaciones, lo que se traduce en una necesidad real de marketing digital eficiente y con resultados medibles (performance).  Son suficientemente grandes como para tener presupuesto para una agencia, pero no tan grandes como para tener un departamento de marketing inmensamente complejo.\n\n* **Bio (Busca escalar marketing digital):** Este es el factor m\u00e1s determinante.  Indica un inter\u00e9s expl\u00edcito en las soluciones de marketing que ofrece la agencia.  Claramente, est\u00e1n buscando mejorar su performance de marketing y la menci\u00f3n impl\u00edcita a la necesidad de optimizaci\u00f3n hace que la propuesta de valor de una agencia con foco en IA sea altamente atractiva.  La IA puede automatizar tareas, optimizar campa\u00f1as y ofrecer predicciones, contribuyendo directamente a la escalabilidad buscada.\n\n**Posibles puntos de baja en el inter\u00e9s (10 puntos de reducci\u00f3n):**\n\nLa puntuaci\u00f3n no es un 100% porque siempre hay incertidumbres:\n\n* **Presupuesto:**  Aunque es probable que tengan presupuesto, no est\u00e1 expl\u00edcito.  Un presupuesto limitado podr\u00eda afectar la viabilidad del proyecto.\n* **Competidores:**  Puede que ya est\u00e9n trabajando con otra agencia o que tengan un proveedor de IA espec\u00edfico.\n* **Estrategia interna:**  Es posible que tengan una visi\u00f3n de marketing diferente a la que ofrece la agencia.\n\n\nEn resumen, este lead es un prospecto altamente calificado, con una alta probabilidad de conversi\u00f3n. La coincidencia entre sus necesidades (escalar marketing digital) y las capacidades de la agencia (performance + IA) es muy fuerte."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 4 - Miner\u00edaEco",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Mar\u00eda",
+      "apellido": "G\u00f3mez",
+      "email": "maria@mineriaeco.com",
+      "telefono": "333444555",
+      "empresa": "Miner\u00edaEco",
+      "cargo": "CMO",
+      "industria": "Miner\u00eda",
+      "bio": "Cree en performance con automatizaci\u00f3n",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 20,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **95/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nEl perfil del lead presenta una alta probabilidad de ser un buen prospecto por varias razones:\n\n* **Cargo:** CMO (Chief Marketing Officer). Los CMOs son tomadores de decisiones clave con el presupuesto y la autoridad para contratar agencias de marketing.  Su posici\u00f3n indica una responsabilidad directa por el rendimiento de las campa\u00f1as de marketing.\n\n* **Empresa:** Miner\u00edaEco. El nombre sugiere una empresa consciente de su impacto ambiental, lo que podr\u00eda indicar una predisposici\u00f3n a adoptar tecnolog\u00edas modernas y eficientes como la IA para optimizar sus operaciones y comunicaci\u00f3n,  incluyendo el marketing.\n\n* **Industria:** Miner\u00eda. La industria minera, a menudo, necesita optimizar sus procesos y mejorar su imagen p\u00fablica.  Una agencia de marketing con enfoque en performance e IA puede ofrecer soluciones innovadoras para abordar estos desaf\u00edos, desde la automatizaci\u00f3n de campa\u00f1as hasta la mejora de la segmentaci\u00f3n y el an\u00e1lisis predictivo de resultados.\n\n* **Tama\u00f1o:** 51-200 empleados.  Este tama\u00f1o de empresa indica una estructura lo suficientemente grande como para necesitar los servicios de una agencia de marketing especializada, pero no tan grande como para tener un departamento de marketing inmenso que ya cuente con estas soluciones.\n\n* **Bio:** \"Cree en performance con automatizaci\u00f3n\".  Esta frase es una se\u00f1al extremadamente fuerte de inter\u00e9s. Demuestra una alineaci\u00f3n directa con la propuesta de valor de la agencia:  buscan resultados medibles (performance) y est\u00e1n abiertos a soluciones automatizadas (IA).\n\n\n**Posibles razones para no estar al 100%:**\n\n* **Falta de informaci\u00f3n:** No se conoce el presupuesto de marketing de Miner\u00edaEco, ni su situaci\u00f3n actual en cuanto a estrategias de marketing digital.  Podr\u00edan tener ya una agencia o no estar buscando activamente una nueva.\n* **Competencia:** Otras agencias podr\u00edan estar compitiendo por este lead.\n* **Ubicaci\u00f3n geogr\u00e1fica:** La ubicaci\u00f3n de la empresa no est\u00e1 especificada, lo que podr\u00eda ser un factor limitante dependiendo del alcance geogr\u00e1fico de la agencia.\n\n\nEn resumen, el perfil del lead es excepcionalmente prometedor y representa una oportunidad significativa para la agencia. La coincidencia casi perfecta entre las necesidades expresadas (performance + automatizaci\u00f3n) y las capacidades de la agencia justifica el alto nivel de inter\u00e9s."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 5 - Viajes Ejecutivos",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Jorge",
+      "apellido": "Fernandez",
+      "email": "jorge@viajesejecutivos.com",
+      "telefono": "999888777",
+      "empresa": "Viajes Ejecutivos",
+      "cargo": "CEO",
+      "industria": "Turismo",
+      "bio": "Explorando IA para captar clientes premium",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 45,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **95**.\n\n**Justificaci\u00f3n:**\n\nEl perfil del lead encaja excepcionalmente bien con el servicio ofrecido por una agencia de marketing con foco en performance + IA.  Varios factores contribuyen a esta alta puntuaci\u00f3n:\n\n* **Cargo (CEO):**  Los CEOs tienen la autoridad para tomar decisiones de compra importantes, lo que convierte a este lead en un decisor clave.  Su involucramiento directo indica un alto potencial de conversi\u00f3n.\n\n* **Empresa (Viajes Ejecutivos):**  La industria del turismo es altamente competitiva y susceptible de mejoras en la captaci\u00f3n de clientes.  La necesidad de optimizar la adquisici\u00f3n de clientes premium es evidente.\n\n* **Industria (Turismo):** El turismo es una industria que se beneficia enormemente de las estrategias de marketing de performance,  particularmente en la segmentaci\u00f3n de audiencias y la optimizaci\u00f3n de campa\u00f1as.  La IA puede ayudar a automatizar y mejorar la precisi\u00f3n en este proceso,  facilitando la captaci\u00f3n de clientes de alto valor.\n\n* **Tama\u00f1o (51-200 empleados):**  Este tama\u00f1o de empresa sugiere una estructura donde las inversiones en marketing son factibles y donde es probable que haya un presupuesto asignado para la mejora de las estrategias de adquisici\u00f3n de clientes.\n\n* **Bio (Explorando IA para captar clientes premium):** Este es el factor m\u00e1s importante.  La biograf\u00eda del CEO indica un inter\u00e9s expl\u00edcito en la IA para lograr un objetivo espec\u00edfico que se alinea perfectamente con la oferta de la agencia.  Esto muestra una necesidad y una predisposici\u00f3n a la soluci\u00f3n que la agencia puede ofrecer.\n\n\n**Posibles razones para no alcanzar el 100%:**\n\n* **Falta de informaci\u00f3n adicional:**  No se conoce el presupuesto del CEO para marketing, ni su nivel de familiaridad con soluciones de IA.  Una mayor investigaci\u00f3n para entender sus necesidades espec\u00edficas ser\u00eda crucial.\n* **Competencia:**  Otras agencias pueden estar compitiendo por su atenci\u00f3n.\n\n\nEn resumen, este lead es un prospecto excepcionalmente calificado, con una alta probabilidad de convertirse en cliente.  La agencia deber\u00eda priorizar el contacto con este CEO y realizar una investigaci\u00f3n m\u00e1s profunda para personalizar su propuesta."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 6 - Farma360",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Luc\u00eda",
+      "apellido": "P\u00e9rez",
+      "email": "lucia@farma360.com",
+      "telefono": "222333444",
+      "empresa": "Farma360",
+      "cargo": "Marketing Manager",
+      "industria": "Salud",
+      "bio": "Busca optimizar campa\u00f1as por canales",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 10,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **90/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo:** Marketing Manager es un rol decisor clave en la toma de decisiones de inversi\u00f3n en marketing.  Tienen la autoridad y la responsabilidad de buscar mejoras en las campa\u00f1as.\n\n* **Empresa:** Farma360, en la industria de la salud, sugiere una empresa que probablemente tenga presupuestos dedicados a marketing y una necesidad de alcanzar objetivos medibles. La industria de la salud es regulada, por lo que una soluci\u00f3n con enfoque en performance y datos es particularmente atractiva.\n\n* **Tama\u00f1o:** 51-200 empleados indica una empresa de tama\u00f1o mediano, con recursos suficientes para invertir en una agencia externa y con una estructura de marketing lo suficientemente compleja como para necesitar optimizaci\u00f3n.\n\n* **Bio:**  \"Busca optimizar campa\u00f1as por canales\" es un indicador extremadamente positivo.  Esto muestra una necesidad directa del servicio que ofrece la agencia.  Implica un inter\u00e9s expl\u00edcito en la mejora de resultados y la eficiencia, lo que encaja perfectamente con la propuesta de valor de una agencia de performance + IA.  La menci\u00f3n de \"canales\" sugiere que ya est\u00e1n utilizando diferentes estrategias de marketing y buscan una soluci\u00f3n integral para mejorarlas.\n\n**Razones para el 90 y no el 100:**\n\nSi bien el perfil es excelente, siempre queda un 10% de incertidumbre.  Falta informaci\u00f3n sobre:\n\n* **Presupuesto:**  No se sabe si Farma360 tiene el presupuesto necesario para los servicios de una agencia.\n* **Tecnolog\u00eda actual:** No sabemos qu\u00e9 herramientas de marketing utiliza actualmente. Podr\u00eda estar utilizando soluciones de IA que ya cubren sus necesidades.\n* **Experiencia previa con agencias:** Una mala experiencia pasada podr\u00eda influir en su decisi\u00f3n.\n\nEn resumen, este lead muestra una alta probabilidad de convertirse en un cliente. La alineaci\u00f3n entre sus necesidades y la oferta de la agencia es muy alta, lo que justifica el 90/100 de inter\u00e9s.  Un contacto inicial para obtener m\u00e1s informaci\u00f3n sobre su situaci\u00f3n actual y presupuesto ser\u00eda el siguiente paso crucial."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 7 - AgroData",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Hern\u00e1n",
+      "apellido": "Alonso",
+      "email": "hernan@agrodata.io",
+      "telefono": "555666777",
+      "empresa": "AgroData",
+      "cargo": "VP Marketing",
+      "industria": "Agro",
+      "bio": "Datos predictivos y performance rural",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 10,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **95/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nEl perfil del lead coincide en gran medida con el ideal para una agencia que ofrece servicios de marketing de performance con IA.  Varios factores contribuyen a esta alta puntuaci\u00f3n:\n\n* **Cargo:** VP de Marketing indica una persona con poder de decisi\u00f3n y presupuesto para contratar servicios de marketing.  Es alguien que busca resultados medibles y est\u00e1 en una posici\u00f3n clave para implementar nuevas estrategias.\n\n* **Empresa:** AgroData opera en el sector agropecuario, una industria que se est\u00e1 digitalizando r\u00e1pidamente y donde la aplicaci\u00f3n de datos predictivos y la IA puede generar un gran impacto en la eficiencia y rentabilidad.  Esto representa una gran oportunidad para la agencia.\n\n* **Industria:** El sector agro es receptivo a la tecnolog\u00eda que mejore la productividad. La combinaci\u00f3n de agricultura y datos (AgroData) sugiere una predisposici\u00f3n a adoptar soluciones tecnol\u00f3gicas.\n\n* **Tama\u00f1o:** Una empresa de 51-200 empleados indica una organizaci\u00f3n lo suficientemente grande como para tener un presupuesto dedicado al marketing y lo suficientemente peque\u00f1a como para que el VP de Marketing tenga una visi\u00f3n general del proceso y pueda tomar decisiones sin necesidad de m\u00faltiples aprobaciones.\n\n* **Bio:** \"Datos predictivos y performance rural\" es un indicador directo de inter\u00e9s en los servicios que ofrece la agencia.  Demuestra que la empresa ya est\u00e1 trabajando con datos y busca mejorar su performance, lo cual alinea perfectamente con las capacidades de una agencia de marketing con foco en performance + IA.\n\n\n**Posibles razones para no ser un 100/100:**\n\n* **Falta de informaci\u00f3n adicional:** Se desconoce el presupuesto de marketing de AgroData, la historia previa con agencias o sus objetivos espec\u00edficos.  Una informaci\u00f3n m\u00e1s completa permitir\u00eda una evaluaci\u00f3n m\u00e1s precisa.\n* **Competencia:** Puede que AgroData ya est\u00e9 trabajando con una agencia o tenga una soluci\u00f3n interna.\n\n\nEn resumen, este lead presenta un perfil extremadamente prometedor, presentando una alta probabilidad de conversi\u00f3n. La coincidencia entre las necesidades del lead (datos predictivos, performance) y la oferta de la agencia (performance + IA) es muy significativa."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 8 - LogiX",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Julieta",
+      "apellido": "Sosa",
+      "email": "julieta@logix.com",
+      "telefono": "666777888",
+      "empresa": "LogiX",
+      "cargo": "Especialista en Mkt",
+      "industria": "Log\u00edstica",
+      "bio": "Automatizaci\u00f3n y tracking inteligente",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 20,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **85/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo:** \"Especialista en Mkt\" indica directamente que la persona est\u00e1 involucrada en la toma de decisiones o al menos en la influencia de las decisiones de marketing dentro de LogiX.  Es un rol clave para la adquisici\u00f3n de servicios de marketing.\n\n* **Empresa:** LogiX opera en la industria log\u00edstica, un sector que puede beneficiarse significativamente de la automatizaci\u00f3n y la optimizaci\u00f3n a trav\u00e9s de soluciones de marketing basadas en IA. La log\u00edstica se basa en la eficiencia, y la IA puede ofrecer predicciones precisas para mejorar campa\u00f1as y ROI.\n\n* **Industria:** Log\u00edstica es una industria madura con un alto presupuesto dedicado a marketing y optimizaci\u00f3n de procesos. Es probable que est\u00e9n buscando mejoras en su rendimiento.\n\n* **Tama\u00f1o:** 51-200 empleados sugiere una empresa lo suficientemente grande como para tener un presupuesto de marketing considerable y una necesidad de estrategias m\u00e1s sofisticadas que una peque\u00f1a empresa.  No es tan grande que la decisi\u00f3n de compra sea extremadamente compleja.\n\n* **Bio:** \"Automatizaci\u00f3n y tracking inteligente\" es una se\u00f1al muy fuerte.  Esto indica un inter\u00e9s expl\u00edcito en las tecnolog\u00edas que la agencia ofrece.  Demuestra una alineaci\u00f3n perfecta entre las necesidades del lead y las capacidades de la agencia.\n\n\n**Razones para no dar un 100:**\n\n* **Falta de informaci\u00f3n:** Se desconoce el presupuesto de marketing de LogiX, la existencia de una agencia actual o si hay proyectos espec\u00edficos en marcha.  Un conocimiento m\u00e1s profundo de sus necesidades y desaf\u00edos dar\u00eda mayor certeza.\n* **Competencia:** Puede haber otras agencias compitiendo por la atenci\u00f3n de este lead.  La agencia necesitar\u00eda diferenciarse para asegurar la conversi\u00f3n.\n\nEn resumen, el perfil del lead presenta un alto potencial, pero se necesita una investigaci\u00f3n adicional para validar el inter\u00e9s y asegurar una conversi\u00f3n exitosa.  El inter\u00e9s del 85% refleja la alta probabilidad de ser un buen prospecto, pero a\u00fan hay espacio para mejorar la calificaci\u00f3n del lead con m\u00e1s informaci\u00f3n."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 9 - FintechPower",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Federico",
+      "apellido": "Ibarra",
+      "email": "fede@fintechpower.com",
+      "telefono": "888999000",
+      "empresa": "FintechPower",
+      "cargo": "Coordinador de Marketing",
+      "industria": "Fintech",
+      "bio": "Aplica IA en adquisici\u00f3n multicanal",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 10,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **95/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nEl perfil del lead presenta una alta probabilidad de ser un buen prospecto por las siguientes razones:\n\n* **Cargo:** \"Coordinador de Marketing\" indica que la persona tiene responsabilidades directas en la gesti\u00f3n de campa\u00f1as de marketing y la toma de decisiones relacionadas con la inversi\u00f3n y estrategias.  Est\u00e1 en una posici\u00f3n ideal para evaluar y contratar los servicios de una agencia.\n\n* **Empresa:** FintechPower, una empresa en el sector Fintech, es una industria que usualmente adopta tecnolog\u00edas innovadoras y se preocupa por la medici\u00f3n del rendimiento (performance).  La necesidad de optimizar la adquisici\u00f3n de clientes es alta en este sector competitivo.\n\n* **Industria:** Fintech.  La industria Fintech est\u00e1 a la vanguardia en la adopci\u00f3n de la tecnolog\u00eda, incluyendo la IA, lo que alinea perfectamente con la oferta de la agencia.\n\n* **Tama\u00f1o:** 51-200 empleados.  Esta escala empresarial suele tener presupuestos para marketing y una necesidad clara de escalar sus esfuerzos de adquisici\u00f3n de clientes, lo que hace atractivo el enfoque de performance.\n\n* **Bio:** \"Aplica IA en adquisici\u00f3n multicanal\" es el factor clave que eleva el inter\u00e9s a un nivel muy alto.  Esto demuestra un inter\u00e9s preexistente en la IA y la optimizaci\u00f3n multicanal, dos \u00e1reas de especializaci\u00f3n de la agencia.  Indica que la empresa ya est\u00e1 experimentando con IA, pero podr\u00eda necesitar ayuda para optimizarlo o escalarlo, lo que representa una oportunidad de negocio.\n\n\n**Razones por las que no es un 100/100:**\n\n* **Falta de informaci\u00f3n:** Aunque la biograf\u00eda es prometedora,  faltan datos sobre el presupuesto de marketing de FintechPower y su satisfacci\u00f3n con sus estrategias actuales.  Un conocimiento m\u00e1s profundo de sus desaf\u00edos y objetivos ser\u00eda necesario para garantizar un ajuste perfecto.  Se requerir\u00eda m\u00e1s investigaci\u00f3n.\n\nEn resumen, este lead presenta un perfil altamente cualificado y se alinea perfectamente con la oferta de la agencia.  La informaci\u00f3n disponible sugiere una alta probabilidad de conversi\u00f3n, justificando el alto nivel de inter\u00e9s.  Una primera interacci\u00f3n con el lead permitir\u00eda afinar a\u00fan m\u00e1s la calificaci\u00f3n y confirmar su potencial."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Lead 10 - ConsultingHub",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Valentina",
+      "apellido": "L\u00f3pez",
+      "email": "vale@consultinghub.com",
+      "telefono": "777888999",
+      "empresa": "ConsultingHub",
+      "cargo": "Marketing Director",
+      "industria": "Consultor\u00eda",
+      "bio": "Transformaci\u00f3n digital con ROI",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 10,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **85/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo:** Director de Marketing.  Esta posici\u00f3n tiene la autoridad y el presupuesto para tomar decisiones sobre la inversi\u00f3n en marketing y la contrataci\u00f3n de agencias.  Es un decisor clave.\n\n* **Empresa:** ConsultingHub.  Las empresas de consultor\u00eda, especialmente las que se enfocan en la transformaci\u00f3n digital, suelen ser muy receptivas a soluciones innovadoras y orientadas a resultados medibles.  Entienden el valor de la data y la optimizaci\u00f3n.\n\n* **Industria:** Consultor\u00eda.  La industria de la consultor\u00eda es altamente competitiva.  Una agencia que ofrece performance marketing y la potencia de la IA para mejorar la eficiencia y la conversi\u00f3n ser\u00eda muy atractiva para mejorar su posicionamiento y generaci\u00f3n de leads.\n\n* **Tama\u00f1o:** 51-200 empleados.  Este tama\u00f1o de empresa indica una estructura lo suficientemente grande como para tener un presupuesto de marketing dedicado y una necesidad de escalar sus esfuerzos de forma eficiente.  No es tan grande como para ser demasiado complejo de abordar.\n\n* **Bio:** \"Transformaci\u00f3n digital con ROI\".  Esta biograf\u00eda es una se\u00f1al extremadamente positiva.  Demuestra que el lead est\u00e1 interesado en soluciones digitales que generen un retorno de inversi\u00f3n medible, lo cual es exactamente lo que ofrece una agencia de marketing con foco en performance + IA.  La menci\u00f3n expl\u00edcita del ROI alinea perfectamente con la propuesta de valor de la agencia.\n\n\n**Posibles razones para no asignarle un 100:**\n\n* **Falta de informaci\u00f3n:** Aunque la informaci\u00f3n proporcionada es positiva,  se podr\u00eda aumentar el nivel de inter\u00e9s con m\u00e1s detalles sobre sus necesidades espec\u00edficas, presupuesto,  proyectos actuales o desaf\u00edos en marketing.  Una mayor cualificaci\u00f3n del lead permitir\u00eda una valoraci\u00f3n m\u00e1s precisa.\n\n* **Competici\u00f3n:**  Es posible que ConsultingHub ya est\u00e9 trabajando con otra agencia o tenga un enfoque de marketing bien establecido.\n\nEn resumen, este lead representa una excelente oportunidad.  La combinaci\u00f3n del cargo, la industria, el tama\u00f1o de la empresa y la biograf\u00eda sugieren una alta probabilidad de inter\u00e9s en los servicios ofrecidos por la agencia.  Sin embargo, una investigaci\u00f3n adicional para confirmar sus necesidades espec\u00edficas maximizar\u00eda las posibilidades de \u00e9xito."
+    },
+    "error_detail": null
+  }
+]

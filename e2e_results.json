@@ -1,0 +1,101 @@
+[
+  {
+    "test_name": "Health Check",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "status": "ok"
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Classify Lead",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "nombre": "Laura",
+      "apellido": "Gonzalez",
+      "email": "laura@example.com",
+      "telefono": "123456789",
+      "empresa": "Viajes Geniales",
+      "cargo": "CEO",
+      "industria": "Turismo",
+      "bio": "Apasionada del marketing y automatizaci\u00f3n",
+      "tama\u00f1o_empresa": "51-200",
+      "tecnologias": [
+        "Google Ads",
+        "Hubspot",
+        "Zapier"
+      ],
+      "puntaje": 55,
+      "explicacion": "Este lead tiene un nivel de inter\u00e9s de **85/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nHay varios factores que contribuyen a este alto nivel de inter\u00e9s:\n\n* **Cargo:** CEO.  Los CEOs tienen la autoridad para tomar decisiones de inversi\u00f3n en marketing y suelen estar directamente involucrados en la estrategia de crecimiento de la empresa.  Su influencia en la toma de decisiones es alta.\n\n* **Industria (Turismo):** La industria tur\u00edstica es altamente competitiva y dependiente del marketing digital para llegar a su p\u00fablico objetivo.  Una agencia que ofrezca performance marketing y la aplicaci\u00f3n de IA para optimizar campa\u00f1as (predicci\u00f3n de tendencias, segmentaci\u00f3n avanzada, etc.) tendr\u00eda mucho valor para una empresa en este sector.\n\n* **Tama\u00f1o de la empresa (51-200 empleados):**  Este tama\u00f1o sugiere una empresa lo suficientemente grande como para tener un presupuesto de marketing considerable, pero no tan grande como para tener un departamento de marketing enormemente establecido y con recursos ilimitados.  Es probable que est\u00e9n buscando externalizar o mejorar sus estrategias de marketing.\n\n* **Bio (Apasionada del marketing y automatizaci\u00f3n):** Este es un factor clave. Su inter\u00e9s en la automatizaci\u00f3n indica una predisposici\u00f3n positiva hacia las soluciones tecnol\u00f3gicas que ofrece una agencia de marketing con foco en IA.  Demuestra una mentalidad abierta a la innovaci\u00f3n y la eficiencia que son pilares del performance marketing impulsado por IA.\n\n**Factores que restan un poco al inter\u00e9s (15 puntos):**\n\n* **Falta de informaci\u00f3n espec\u00edfica:** No sabemos el tama\u00f1o del presupuesto de marketing de Viajes Geniales, sus objetivos concretos, ni su situaci\u00f3n actual en t\u00e9rminos de marketing digital.  Una conversaci\u00f3n m\u00e1s profunda ser\u00eda necesaria para determinar el ajuste perfecto entre las necesidades de la empresa y las capacidades de la agencia.\n\n\nEn resumen, el perfil del lead es muy prometedor. La combinaci\u00f3n de cargo, industria, tama\u00f1o de la empresa y el inter\u00e9s personal en marketing y automatizaci\u00f3n sugieren una alta probabilidad de que sea un buen prospecto. Sin embargo,  una calificaci\u00f3n de 85 en lugar de 100 refleja la necesidad de una mayor investigaci\u00f3n para confirmar el ajuste ideal y el potencial de conversi\u00f3n a cliente."
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Bulk Import",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": {
+      "processed": 2
+    },
+    "error_detail": null
+  },
+  {
+    "test_name": "Get Leads",
+    "status": "success",
+    "expected_status_code": 200,
+    "actual_status_code": 200,
+    "message": [
+      {
+        "id": 3,
+        "nombre": "Ana",
+        "apellido": "Silva",
+        "email": "ana@example.com",
+        "telefono": "1122334455",
+        "empresa": "EduFuturo",
+        "cargo": "Directora",
+        "industria": "Educaci\u00f3n",
+        "bio": "Explorando soluciones digitales innovadoras",
+        "tama\u00f1o_empresa": "51-200",
+        "puntaje": 25,
+        "explicacion": "Este lead tiene un inter\u00e9s de **75/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo:** El cargo de Directora sugiere un nivel de autoridad en la toma de decisiones dentro de EduFuturo.  Es probable que tenga el poder de aprobar presupuestos y contratar servicios de marketing.\n\n* **Industria:** La industria de la educaci\u00f3n est\u00e1 en constante evoluci\u00f3n y cada vez m\u00e1s  dependiente de soluciones digitales para llegar a su p\u00fablico objetivo.  Esto la convierte en una industria receptiva a las estrategias de performance marketing y la aplicaci\u00f3n de IA para optimizar sus campa\u00f1as.\n\n* **Tama\u00f1o de la empresa:**  Una empresa de 51-200 empleados sugiere una estructura que probablemente ya tenga un departamento de marketing o al menos un presupuesto dedicado a ello.  No es demasiado peque\u00f1a como para no considerar una inversi\u00f3n en marketing externo, ni demasiado grande como para ser inaccesible.\n\n* **Bio:**  \"Explorando soluciones digitales innovadoras\" es un indicativo claro de inter\u00e9s en nuevas tecnolog\u00edas y estrategias.  La menci\u00f3n de \"soluciones digitales\" alinea perfectamente con las capacidades de una agencia de marketing con foco en performance + IA.  Esto es un fuerte indicador positivo.\n\n**Puntos a considerar que bajan la puntuaci\u00f3n:**\n\n* **Falta de informaci\u00f3n espec\u00edfica:**  No sabemos qu\u00e9 tipo de soluciones digitales est\u00e1 explorando exactamente. Podr\u00eda ser simplemente un inter\u00e9s general, no necesariamente enfocado en performance marketing o IA.  Falta conocer sus objetivos de marketing espec\u00edficos (aumento de inscripciones, mejora de la reputaci\u00f3n online, etc.).\n\n* **Falta de contexto:** No se sabe si EduFuturo ya cuenta con una estrategia de marketing digital en marcha o si est\u00e1n comenzando desde cero.  Si ya tienen una agencia, las posibilidades de que contraten otra son menores.\n\n\nEn resumen, el perfil muestra una alta probabilidad de inter\u00e9s, pero se necesita m\u00e1s informaci\u00f3n para determinar con certeza si es un lead calificado.  Una interacci\u00f3n o calificaci\u00f3n adicional podr\u00eda aumentar considerablemente el nivel de inter\u00e9s.",
+        "created_at": "2025-08-01T21:25:49"
+      },
+      {
+        "id": 2,
+        "nombre": "Carlos",
+        "apellido": "Martinez",
+        "email": "carlos@example.com",
+        "telefono": "987654321",
+        "empresa": "TechVision",
+        "cargo": "CTO",
+        "industria": "SaaS",
+        "bio": "Interesado en automatizaci\u00f3n y herramientas de IA",
+        "tama\u00f1o_empresa": "51-200",
+        "puntaje": 35,
+        "explicacion": "Este lead tiene un nivel de inter\u00e9s de **95/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\n* **Cargo (CTO):**  Un CTO tiene la autoridad y el presupuesto para tomar decisiones sobre la inversi\u00f3n en tecnolog\u00eda y marketing, incluyendo soluciones de IA.  Es un decisor clave.\n\n* **Empresa (TechVision):**  Una empresa de SaaS est\u00e1 intr\u00ednsecamente ligada a la tecnolog\u00eda y probablemente busca constantemente mejorar la eficiencia y el rendimiento.  Es un sector receptivo a las soluciones de IA.\n\n* **Industria (SaaS):**  La industria SaaS es altamente competitiva y la automatizaci\u00f3n y el rendimiento son factores cruciales para el \u00e9xito.  Una agencia que ofrece soluciones de performance + IA se alinea perfectamente con sus necesidades.\n\n* **Tama\u00f1o (51-200 empleados):**  Este tama\u00f1o de empresa sugiere que TechVision probablemente ya ha alcanzado cierta madurez y tiene los recursos para invertir en soluciones de marketing sofisticadas y con un costo m\u00e1s elevado.  No son demasiado peque\u00f1os para una soluci\u00f3n compleja, ni demasiado grandes como para ser insensibles a las promesas de rendimiento.\n\n* **Bio (Interesado en automatizaci\u00f3n y herramientas de IA):**  Este es el indicador m\u00e1s fuerte.  Muestra un inter\u00e9s expl\u00edcito en las mismas soluciones que ofrece la agencia.  Es una se\u00f1al clara de compatibilidad y un alto potencial de conversi\u00f3n.\n\n\n**Razones para no ser un 100/100:**\n\nSi bien el perfil es excelente, siempre existe un margen de incertidumbre.  Podr\u00eda haber:\n\n* **Presupuesto limitado:**  Aunque probable, no se conoce el presupuesto real de marketing de TechVision.\n* **Proveedores existentes:**  Ya podr\u00edan tener un proveedor de marketing que cumple con sus necesidades.\n* **Prioridades cambiantes:**  Las prioridades internas de TechVision pueden cambiar, relegando la inversi\u00f3n en IA a un segundo plano.\n\n\nEn resumen, este lead presenta un perfil casi ideal, mostrando una alta probabilidad de convertirse en cliente. La  alta puntuaci\u00f3n refleja la fuerte alineaci\u00f3n entre las necesidades del lead y la oferta de la agencia.",
+        "created_at": "2025-08-01T21:25:45"
+      },
+      {
+        "id": 1,
+        "nombre": "Laura",
+        "apellido": "Gonzalez",
+        "email": "laura@example.com",
+        "telefono": "123456789",
+        "empresa": "Viajes Geniales",
+        "cargo": "CEO",
+        "industria": "Turismo",
+        "bio": "Apasionada del marketing y automatizaci\u00f3n",
+        "tama\u00f1o_empresa": "51-200",
+        "puntaje": 55,
+        "explicacion": "Este lead tiene un nivel de inter\u00e9s de **85/100** para una agencia de marketing con foco en performance + IA.\n\n**Justificaci\u00f3n:**\n\nHay varios factores que contribuyen a este alto nivel de inter\u00e9s:\n\n* **Cargo:** CEO.  Los CEOs tienen la autoridad para tomar decisiones de inversi\u00f3n en marketing y suelen estar directamente involucrados en la estrategia de crecimiento de la empresa.  Su influencia en la toma de decisiones es alta.\n\n* **Industria (Turismo):** La industria tur\u00edstica es altamente competitiva y dependiente del marketing digital para llegar a su p\u00fablico objetivo.  Una agencia que ofrezca performance marketing y la aplicaci\u00f3n de IA para optimizar campa\u00f1as (predicci\u00f3n de tendencias, segmentaci\u00f3n avanzada, etc.) tendr\u00eda mucho valor para una empresa en este sector.\n\n* **Tama\u00f1o de la empresa (51-200 empleados):**  Este tama\u00f1o sugiere una empresa lo suficientemente grande como para tener un presupuesto de marketing considerable, pero no tan grande como para tener un departamento de marketing enormemente establecido y con recursos ilimitados.  Es probable que est\u00e9n buscando externalizar o mejorar sus estrategias de marketing.\n\n* **Bio (Apasionada del marketing y automatizaci\u00f3n):** Este es un factor clave. Su inter\u00e9s en la automatizaci\u00f3n indica una predisposici\u00f3n positiva hacia las soluciones tecnol\u00f3gicas que ofrece una agencia de marketing con foco en IA.  Demuestra una mentalidad abierta a la innovaci\u00f3n y la eficiencia que son pilares del performance marketing impulsado por IA.\n\n**Factores que restan un poco al inter\u00e9s (15 puntos):**\n\n* **Falta de informaci\u00f3n espec\u00edfica:** No sabemos el tama\u00f1o del presupuesto de marketing de Viajes Geniales, sus objetivos concretos, ni su situaci\u00f3n actual en t\u00e9rminos de marketing digital.  Una conversaci\u00f3n m\u00e1s profunda ser\u00eda necesaria para determinar el ajuste perfecto entre las necesidades de la empresa y las capacidades de la agencia.\n\n\nEn resumen, el perfil del lead es muy prometedor. La combinaci\u00f3n de cargo, industria, tama\u00f1o de la empresa y el inter\u00e9s personal en marketing y automatizaci\u00f3n sugieren una alta probabilidad de que sea un buen prospecto. Sin embargo,  una calificaci\u00f3n de 85 en lugar de 100 refleja la necesidad de una mayor investigaci\u00f3n para confirmar el ajuste ideal y el potencial de conversi\u00f3n a cliente.",
+        "created_at": "2025-08-01T21:25:40"
+      }
+    ],
+    "error_detail": null
+  }
+]
