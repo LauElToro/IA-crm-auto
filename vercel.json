@@ -3,9 +3,18 @@
     "api/index.py": { "runtime": "python3.11" }
   },
   "routes": [
-    { "src": "/health", "dest": "/api/index.py" },
-    { "src": "/leads(?:/.*)?", "dest": "/api/index.py" },
-    { "src": "/ads/segment", "dest": "/api/index.py" },
-    { "src": "/(.*)", "dest": "/api/index.py" }
+    { "src": "/ads/segment", "methods": ["GET","POST","OPTIONS"], "dest": "/api/index.py" },
+    { "src": "/health", "methods": ["GET","OPTIONS"], "dest": "/api/index.py" }
+  ],
+  "headers": [
+    {
+      "source": "/ads/segment",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "http://localhost:5173" },
+        { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    }
   ]
 }
