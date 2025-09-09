@@ -1,9 +1,61 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/index.py": { "runtime": "python3.12" }
+    "api/app.py": { "runtime": "python3.12", "memory": 1024, "maxDuration": 30 }
   },
-  "routes": [
-    { "src": "^/api/ads/segment$", "methods": ["GET","POST","OPTIONS"], "dest": "/api/index.py" },
-    { "src": "^/api/health$", "methods": ["GET","OPTIONS"], "dest": "/api/index.py" }
+  "regions": ["gru1"],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/app.py" },
+    { "source": "/ads/segment", "destination": "/api/app.py" },
+    { "source": "/health", "destination": "/api/app.py" },
+    { "source": "/leads", "destination": "/api/app.py" },
+    { "source": "/leads/(.*)", "destination": "/api/app.py" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,PUT,PATCH,DELETE,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    },
+    {
+      "source": "/ads/segment",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    },
+    {
+      "source": "/health",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    },
+    {
+      "source": "/leads",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    },
+    {
+      "source": "/leads/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
+        { "key": "Access-Control-Max-Age", "value": "86400" }
+      ]
+    }
   ]
 }
