@@ -8,8 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://ia-crm-auto.vercel.app',
-        changeOrigin: true,
-        rewrite: (p) => p.replace(/^\/api/, '')
+        changeOrigin: true
       }
     }
   }
