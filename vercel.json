@@ -1,6 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/(api/.*)", "destination": "/api/app.py" }
-  ]
+  "functions": {
+    "api/**/*.py": {
+      "excludeFiles": "{**/*.ipynb,**/*.csv,**/*.parquet,**/assets/**,**/static/**,**/public/**,**/node_modules/**,**/.venv/**,**/venv/**,**/__pycache__/**}"
+    }
+  }
 }

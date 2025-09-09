@@ -1,0 +1,32 @@
+# entornos y caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# node / frontend
+node_modules/
+**/node_modules/
+dist/
+build/
+.vercel/
+.vercel_build_output/
+
+# data pesados
+data/
+datasets/
+notebooks/
+*.ipynb
+*.csv
+*.parquet
+*.feather
+assets/
+static/
+public/
+
+# otros
+*.log
+.env
