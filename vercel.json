@@ -1,9 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": {
-    "api/app.py": { "runtime": "python3.12", "memory": 1024, "maxDuration": 30 }
-  },
-  "regions": ["gru1"],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/app.py" },
     { "source": "/ads/segment", "destination": "/api/app.py" },
