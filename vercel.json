@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/**/*.py": {
-      "excludeFiles": "{**/*.ipynb,**/*.csv,**/*.parquet,**/assets/**,**/static/**,**/public/**,**/node_modules/**,**/.venv/**,**/venv/**,**/__pycache__/**}"
-    }
-  },
   "builds": [
     { "src": "api/app.py", "use": "@vercel/python" }
   ],
