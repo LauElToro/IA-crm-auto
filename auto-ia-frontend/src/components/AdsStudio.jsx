@@ -32,13 +32,7 @@ export default function AdsStudio() {
   const [resp, setResp] = useState(null);
   const [error, setError] = useState(null);
 
-const rawBase = import.meta.env.VITE_API_BASE || "";
-const apiBase = (() => {
-  const clean = String(rawBase).replace(/\/+$/, "");  // sin barra final
-  if (/^https?:\/\//i.test(clean)) return clean;
-  if (!clean) return ""; // caerá en relativo si querés
-  return `https://${clean}`;
-})();
+const apiBase = import.meta.env.VITE_API_BASE || '/api';
 
   const submit = async () => {
     setLoading(true);
