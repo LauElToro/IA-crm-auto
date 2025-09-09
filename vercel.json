@@ -7,55 +7,8 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/app.py" },
     { "source": "/ads/segment", "destination": "/api/app.py" },
-    { "source": "/health", "destination": "/api/app.py" },
     { "source": "/leads", "destination": "/api/app.py" },
-    { "source": "/leads/(.*)", "destination": "/api/app.py" }
-  ],
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,PUT,PATCH,DELETE,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
-        { "key": "Access-Control-Max-Age", "value": "86400" }
-      ]
-    },
-    {
-      "source": "/ads/segment",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
-        { "key": "Access-Control-Max-Age", "value": "86400" }
-      ]
-    },
-    {
-      "source": "/health",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
-        { "key": "Access-Control-Max-Age", "value": "86400" }
-      ]
-    },
-    {
-      "source": "/leads",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
-        { "key": "Access-Control-Max-Age", "value": "86400" }
-      ]
-    },
-    {
-      "source": "/leads/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization" },
-        { "key": "Access-Control-Max-Age", "value": "86400" }
-      ]
-    }
+    { "source": "/leads/(.*)", "destination": "/api/app.py" },
+    { "source": "/health", "destination": "/api/app.py" }
   ]
 }
