@@ -15,8 +15,21 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # Cargar variables de entorno
 load_dotenv()
 
-# Instancia FastAPI
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://ia-crm-auto.vercel.app",
+        # "https://tu-dominio.com",
+    ],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    allow_credentials=False,
+    max_age=86400,
+)
 
 # Endpoint de salud
 @app.get("/health")
