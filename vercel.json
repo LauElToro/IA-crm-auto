@@ -1,10 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/app.py" },
-    { "source": "/ads/segment", "destination": "/api/app.py" },
-    { "source": "/health", "destination": "/api/app.py" },
-    { "source": "/leads", "destination": "/api/app.py" },
-    { "source": "/leads/(.*)", "destination": "/api/app.py" }
+    { "source": "/(api/.*)", "destination": "/api/app.py" }
   ]
 }
