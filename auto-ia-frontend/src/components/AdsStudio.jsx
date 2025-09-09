@@ -32,17 +32,23 @@ export default function AdsStudio() {
   const [resp, setResp] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiBase = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
+const rawBase = import.meta.env.VITE_API_BASE || "";
+const apiBase = (() => {
+  const clean = String(rawBase).replace(/\/+$/, "");  // sin barra final
+  if (/^https?:\/\//i.test(clean)) return clean;
+  if (!clean) return ""; // caerá en relativo si querés
+  return `https://${clean}`;
+})();
 
   const submit = async () => {
     setLoading(true);
     setError(null);
     try {
-      const r = await fetch(`${apiBase}/ads/segment`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
+const r = await fetch(`${apiBase}/ads/segment`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(form),
+});
       const data = await r.json();
       if (!r.ok) throw new Error(data.detail || "Error en el endpoint");
       setResp(data);
