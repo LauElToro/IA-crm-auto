@@ -20,17 +20,19 @@ app = FastAPI()
 
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://ia-crm-auto.vercel.app",
+    "http://127.0.0.1:5173",
+    "https://ia-crm-auto.vercel.app"
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    allow_origin_regex=r"https://.*\.vercel\.app",  # permite cualquier subdominio de vercel.app
-    allow_methods=["*"],       # o ["POST", "OPTIONS"] si querés acotar
+    allow_origin_regex=r"https://.*\.vercel\.app",
+    allow_methods=["*"],
     allow_headers=["*"],
-    allow_credentials=False,   # si vas a usar cookies: ponelo True y NO uses "*" en origins
-))
+    allow_credentials=False,
+    max_age=86400,
+)
 
 # Endpoint de salud
 @app.get("/health")

@@ -1,3 +1,11 @@
 {
-  "routes": [{ "src": "/(.*)", "dest": "/index.py" }]
+  "functions": {
+    "api/index.py": { "runtime": "python3.11" }
+  },
+  "routes": [
+    { "src": "/health", "dest": "/api/index.py" },
+    { "src": "/leads(?:/.*)?", "dest": "/api/index.py" },
+    { "src": "/ads/segment", "dest": "/api/index.py" },
+    { "src": "/(.*)", "dest": "/api/index.py" }
+  ]
 }
